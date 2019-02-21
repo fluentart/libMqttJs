@@ -1,15 +1,4 @@
-# libMqttJs
-MQTT server implementation in Typescript with as little code as possible.    
-Enables full control of packet flow and authentication. 
 
-Docs: [Implementation Reference](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html)    
-Testing: [MQTT.fx 1.7.1](https://mqttfx.jensd.de/)
-
-
-USAGE
-=====
-
-```js
 import { mqttConnection } from "./libmqttjs"
 import * as net from "net"
 
@@ -29,5 +18,3 @@ var server = net.createServer(function (socket: any) {
 })
 
 server.listen(1883);
-
-```

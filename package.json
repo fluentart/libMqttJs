@@ -1,0 +1,16 @@
+{
+  "name": "libmqttjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildwatch": "tsc --sourcemap --w --lib es2015 ./src/main.ts --outDir ./build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^11.9.4"
+  }
+}
